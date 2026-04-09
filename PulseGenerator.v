@@ -16,7 +16,7 @@ reg [15:0]count2;
 reg pulse_active,pulse_outR; 
 
 
-parameter [15:0] PULSE_WIDTH = 500; 
+parameter [15:0] PULSE_WIDTH = 501; 
 
 always @ (posedge CLK or negedge nRESET)
 begin
